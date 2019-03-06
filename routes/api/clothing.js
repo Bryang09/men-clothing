@@ -11,6 +11,19 @@ router.get("/", (req, res) => {
     .catch(err => console.log(err));
 });
 
+// GET BY ID
+
+router.get("/:id", (req, res) => {
+  Clothing.findById(req.params.id)
+    .then(clothing => {
+      if (!clothing) {
+        return res.status(400).end();
+      }
+      return res.status(200).json(clothing);
+    })
+    .catch(err => console.log(err));
+});
+
 // POST api/clothing
 router.post("/", (req, res) => {
   const newClothing = new Clothing({
