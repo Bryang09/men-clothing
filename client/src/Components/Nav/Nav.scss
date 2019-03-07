@@ -1,0 +1,55 @@
+.Nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: flex;
+  background: #eee;
+  width: 100vw;
+
+  .NavLogo {
+    width: 55vw;
+
+    .logo {
+      width: 20vw;
+    }
+
+    h3 {
+      margin-left: 2vw;
+      color: #333;
+
+      a {
+        color: #333;
+      }
+    }
+  }
+
+  .Navigation {
+    width: 42vw;
+    margin-right: 3vw;
+    display: flex;
+    // background: green;
+
+    flex-wrap: wrap;
+
+    a {
+      flex-grow: 1;
+      flex-basis: 01;
+      color: #333333;
+      transition: 1s ease;
+
+      &:hover {
+        background: #ff8d29;
+        color: #fff;
+      }
+
+      h4 {
+        text-align: center;
+        // background: #ff8d29;
+      }
+    }
+  }
+}
+
+.active {
+  background: #ff8d29;
+}

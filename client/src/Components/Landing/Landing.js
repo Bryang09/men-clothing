@@ -9,6 +9,7 @@ import { Content } from "./sectionContent/Content";
 import "./Landing.scss";
 import DividedSection from "./DividedSection/dividedSection";
 
+import Nav from "../Nav/Nav";
 import Footer from "../Footer/Footer";
 
 class Landing extends Component {
@@ -27,6 +28,7 @@ class Landing extends Component {
 
     return (
       <div className="Landing">
+        <Nav />
         <Hero />
         {/* <Section1 />
         <hr />
