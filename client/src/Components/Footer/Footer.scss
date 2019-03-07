@@ -1,0 +1,33 @@
+.Footer {
+  background: #eeefee;
+  height: 7vh;
+  display: flex;
+  align-items: center;
+
+  h5 {
+    width: 40%;
+    font-weight: 400;
+    font-size: 1em;
+    // text-align: center;
+    margin: 0;
+    margin-left: 2vw;
+  }
+
+  .logos {
+    width: 60%;
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 2vw;
+    align-items: center;
+
+    i {
+      margin: 0 1vw;
+      cursor: pointer;
+      transition: 1s ease;
+
+      &:hover {
+        color: #ff8d29;
+      }
+    }
+  }
+}
