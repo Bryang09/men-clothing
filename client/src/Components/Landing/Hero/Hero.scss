@@ -1,0 +1,24 @@
+.Hero {
+  height: 60vh;
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url(https://images.pexels.com/photos/374044/pexels-photo-374044.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940)
+      no-repeat center center / cover;
+  background-attachment: fixed;
+  display: flex;
+  justify-content: center;
+  // align-items: center;
+  flex-direction: column;
+
+  .text {
+    margin-left: 10vw;
+    h1 {
+      color: #fff;
+      font-size: 50px;
+    }
+    h3 {
+      color: #fff;
+      font-weight: 400;
+      font-size: 20px;
+    }
+  }
+}
