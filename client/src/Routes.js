@@ -51,6 +51,11 @@ class Routes extends Component {
           path="/wallets"
           render={props => <Wallets data={data} />}
         />
+        {/* <Route
+          exact
+          path="/:id"
+          render={props => <SingleItem data={data} />}
+        /> */}
         <Route exact path="/:id" component={SingleItem} />
       </Switch>
     );
