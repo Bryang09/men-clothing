@@ -8,19 +8,19 @@ import Hero from "../Shared/Container/Hero/Hero";
 import Container from "../Shared/Container/Container";
 import Footer from "../../Footer/Footer";
 
-class Jackets extends Component {
+class Pants extends Component {
   render() {
     const { data } = this.props;
 
-    const Data = data.filter(res => res.type === "jacket");
+    const Data = data.filter(res => res.type === "pants");
 
-    const title = "Jackets for all occations";
+    const title = "Pants for all occations";
     console.log(Data);
 
     return (
-      <div className="Jackets">
+      <div className="Pants">
         <Nav />
-        <Hero bgClass={`jacketHero`} />
+        <Hero bgClass={`pantsHero`} />
         <Container title={title} data={Data} />
         <Footer />
       </div>
@@ -28,4 +28,4 @@ class Jackets extends Component {
   }
 }
 
-export default Jackets;
+export default Pants;

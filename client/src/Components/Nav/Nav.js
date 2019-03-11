@@ -10,7 +10,6 @@ const Nav = props => {
       <div className="NavLogo">
         <div className="logo">
           <h3>
-            {" "}
             <Link to="/">Fashion For Men</Link>
           </h3>
         </div>

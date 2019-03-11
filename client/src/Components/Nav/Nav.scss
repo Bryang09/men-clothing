@@ -44,12 +44,16 @@
 
       h4 {
         text-align: center;
-        // background: #ff8d29;
+        font-weight: 400;
       }
     }
   }
 }
 
-.active {
+.activeLink {
   background: #ff8d29;
+
+  h4 {
+    color: #fff;
+  }
 }
