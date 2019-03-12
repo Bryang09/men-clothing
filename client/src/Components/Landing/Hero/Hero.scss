@@ -22,3 +22,69 @@
     }
   }
 }
+
+@media screen and (max-width: 768px) {
+  .Hero {
+    background-position: 85% center;
+
+    .text {
+      h1 {
+        font-size: 40px;
+      }
+      h3 {
+        font-size: 15px;
+      }
+    }
+  }
+}
+@media screen and (max-width: 600px) {
+  .Hero {
+    background-position: 80% center;
+
+    .text {
+      margin-left: 5vw;
+
+      h1 {
+        font-size: 35px;
+      }
+      h3 {
+        font-size: 15px;
+      }
+    }
+  }
+}
+@media screen and (max-width: 500px) {
+  .Hero {
+    background-position: 75% center;
+
+    .text {
+      margin-left: 5vw;
+
+      h1 {
+        font-size: 30px;
+      }
+      h3 {
+        font-size: 15px;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .Hero {
+    background-position: 80% center;
+  }
+}
+
+@media screen and (max-width: 1023px) and (min-aspect-ratio: 4/3) {
+  .Hero {
+    .text {
+      h1 {
+        font-size: 30px;
+      }
+      h3 {
+        font-size: 15px;
+      }
+    }
+  }
+}
