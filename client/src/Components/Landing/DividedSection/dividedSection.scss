@@ -86,3 +86,44 @@
         no-repeat center center / cover;
   }
 }
+
+@media screen and (max-width: 992px) {
+  .DividedSection {
+    height: 100%;
+    .boxContainer {
+      flex-direction: column;
+      height: 100%;
+      .box {
+        height: 40vh;
+        width: 100%;
+        margin: 1vh auto;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .DividedSection {
+    .boxContainer {
+      .box {
+        a {
+          margin-bottom: 2vh;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 1023px) and (min-aspect-ratio: 4/3) {
+  .DividedSection {
+    .boxContainer {
+      .box {
+        height: 80vh;
+
+        a {
+          margin-bottom: 3vh;
+        }
+      }
+    }
+  }
+}
