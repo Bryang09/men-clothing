@@ -1,12 +1,15 @@
 .Nav {
-  position: fixed;
-  top: 0;
-  left: 0;
   display: flex;
-  background: #eee;
-  width: 100vw;
-  z-index: 5;
 
+  .desktop {
+    display: flex;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: #ff8d29;
+    width: 100vw;
+    z-index: 5;
+  }
   .NavLogo {
     width: 55vw;
 
@@ -16,10 +19,9 @@
 
     h3 {
       margin-left: 2vw;
-      color: #333;
 
       a {
-        color: #333;
+        color: #fff;
       }
     }
   }
@@ -35,11 +37,11 @@
     a {
       flex-grow: 1;
       flex-basis: 01;
-      color: #333333;
+      color: #fff;
       transition: 1s ease;
 
       &:hover {
-        background: #ff8d29;
+        background: #5fc4ff;
         color: #fff;
       }
 
@@ -52,9 +54,15 @@
 }
 
 .activeLink {
-  background: #ff8d29;
+  background: #5fc4ff;
 
   h4 {
     color: #fff;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .Nav .desktop {
+    display: none;
   }
 }
