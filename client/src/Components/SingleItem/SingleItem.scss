@@ -1,4 +1,19 @@
 .SingleItem {
   height: 100vh;
-  background: url(./bg2.svg) no-repeat center center/ cover;
+  background: url(./bg.svg) no-repeat center center/ cover;
+}
+
+@media screen and (max-width: 992px) {
+  .SingleItem {
+    height: 100vh;
+    // background: url(./ipad3.svg) no-repeat center 0% / cover;
+    background: linear-gradient(#ffcb9e, #ff8d29);
+  }
+}
+@media screen and (max-width: 1023px) and (min-aspect-ratio: 4/3) {
+  .SingleItem {
+    height: 100%;
+    // background: url(./ipad3.svg) no-repeat center 0% / cover;
+    background: linear-gradient(#ffcb9e, #ff8d29);
+  }
 }
