@@ -107,8 +107,15 @@
       width: 10vw;
       height: 15vh;
     }
-  }
-}
 
-@media screen and (max-width: 700px) and (min-aspect-ratio: 4/3) {
+    .burgerNav {
+      h2 {
+        font-size: 40px;
+      }
+      h3 {
+        font-size: 20px;
+        margin: 4.5vh 0;
+      }
+    }
+  }
 }
