@@ -10,6 +10,7 @@
   .clothingItem {
     height: 60vh;
     width: 30%;
+    // margin: 1vh 0%;
     margin: 1vh 1.5%;
 
     .img {
@@ -50,9 +51,139 @@
 
   .watches {
     width: 20%;
+    margin: 1vh 1.5%;
 
     .img {
       background-size: contain;
+    }
+  }
+
+  .shoe {
+    .img {
+      background-size: contain;
+    }
+  }
+}
+
+@media screen and (max-width: 1192px) {
+  .Items {
+    .pants {
+      width: 30%;
+      .img {
+        background-size: cover;
+      }
+    }
+
+    .shoe,
+    .wallets {
+      width: 47%;
+
+      .img {
+        background-size: cover;
+      }
+    }
+
+    .watches {
+      width: 47%;
+
+      .img {
+        background-size: contain;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .Items {
+    .clothingItem {
+      width: 47%;
+      margin: 0.5vh 1.5%;
+
+      .img {
+        // background-size: cover;
+        background-size: contain;
+      }
+    }
+  }
+}
+@media screen and (max-width: 768px) {
+  .Items {
+    .clothingItem {
+      width: 97%;
+      height: 70vh;
+
+      .img {
+        background-size: cover;
+      }
+    }
+
+    .watches,
+    .pants,
+    .wallets {
+      .img {
+        background-size: contain;
+      }
+    }
+  }
+}
+@media screen and (max-width: 600px) {
+  .Items {
+    .shoe {
+      height: 40vh;
+      .img {
+        background-size: contain;
+      }
+    }
+  }
+}
+@media screen and (max-width: 500px) {
+  .Items {
+    .shoe,
+    .wallets {
+      height: 47vh;
+      .img {
+        background-size: contain;
+      }
+    }
+    .pants {
+      .img {
+        background-size: cover;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 1025px) and (min-aspect-ratio: 4/3) {
+}
+
+@media screen and (max-width: 1023px) and (min-aspect-ratio: 4/3) {
+  .Items {
+    .jacket,
+    .shirt {
+      width: 30%;
+      height: 80vh;
+      .img {
+        background-size: cover;
+      }
+    }
+
+    .pants,
+    .shoe,
+    .wallets {
+      height: 80vh;
+      width: 30%;
+
+      .img {
+        background-size: contain;
+      }
+    }
+
+    .watches {
+      height: 80vh;
+      width: 20%;
+      .img {
+        background-size: contain;
+      }
     }
   }
 }

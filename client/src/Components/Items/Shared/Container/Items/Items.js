@@ -11,12 +11,7 @@ const Items = props => {
 
   const clothingData = data.map(res => {
     return (
-      <div
-        className={
-          res.type === "watches" ? "clothingItem watches" : "clothingItem"
-        }
-        key={res._id}
-      >
+      <div className={`clothingItem ${res.type}`} key={res._id}>
         <Link to={`${res._id}`}>
           <div className="img" style={{ backgroundImage: `url(${res.img})` }}>
             <div className="desc">

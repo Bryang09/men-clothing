@@ -4,3 +4,12 @@
     text-align: center;
   }
 }
+
+@media screen and (max-width: 600px) {
+  .Container {
+    h1 {
+      font-size: 25px;
+      text-align: center;
+    }
+  }
+}
