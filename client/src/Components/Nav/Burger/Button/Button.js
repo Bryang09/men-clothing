@@ -8,7 +8,7 @@ const Button = props => {
         className="line line1"
         style={
           burgerExtended
-            ? { transform: `rotate(45deg) translate(0, 5px)` }
+            ? { transform: `rotate(45deg) translate(0, 1px)` }
             : null
         }
       />
@@ -20,7 +20,7 @@ const Button = props => {
         className="line line3"
         style={
           burgerExtended
-            ? { transform: `rotate(-45deg) translate(-1px, -6px)` }
+            ? { transform: `rotate(-45deg) translate(3px, -6px)` }
             : null
         }
       />
