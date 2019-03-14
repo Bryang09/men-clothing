@@ -23,6 +23,7 @@ mongoose
 app.use("/api/clothing", clothing);
 
 const PORT = process.env.PORT || 5000;
+
 // SERVE STATIC ASSETS IN PRODUCTION
 if (process.env.NODE_ENV === "production") {
   // SET STATIC FOLDER
