@@ -4,7 +4,6 @@ import "./SingleContent.scss";
 
 const SingleContent = props => {
   const { item } = props;
-  console.log(item.name);
 
   return (
     <div className="SingleContent">

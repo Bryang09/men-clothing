@@ -15,7 +15,6 @@ class Wallets extends Component {
     const Data = data.filter(res => res.type === "wallets");
 
     const title = "Wallets for all occations";
-    console.log(Data);
 
     return (
       <div className="Wallets">

@@ -7,7 +7,6 @@ import Items from "./Items/Items";
 const Container = props => {
   const { title, data } = props;
 
-  console.log(props.data);
 
   return (
     <div className="Container">

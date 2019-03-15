@@ -15,7 +15,6 @@ class Pants extends Component {
     const Data = data.filter(res => res.type === "pants");
 
     const title = "Pants for all occations";
-    console.log(Data);
 
     return (
       <div className="Pants">

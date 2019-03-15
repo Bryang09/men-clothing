@@ -26,7 +26,6 @@ class SingleItem extends Component {
 
   render() {
     const { item } = this.state;
-    console.log(this.state.item);
 
     return (
       <div className="SingleItem">

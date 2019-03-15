@@ -3,7 +3,6 @@ import React from "react";
 import { Link } from "react-router-dom";
 
 const Section = props => {
-  console.log(props);
 
   const { classes, img, link, title, linkTitle } = props;
 

@@ -7,7 +7,6 @@ import "./Items.scss";
 const Items = props => {
   const { data } = props;
 
-  console.log(data);
 
   const clothingData = data.map(res => {
     return (

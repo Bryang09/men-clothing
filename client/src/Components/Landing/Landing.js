@@ -24,8 +24,7 @@ class Landing extends Component {
     const section2 = content[1];
     const section3 = content[2];
 
-    console.log(section1);
-    console.log(this.props);
+
 
     return (
       <div className="Landing">

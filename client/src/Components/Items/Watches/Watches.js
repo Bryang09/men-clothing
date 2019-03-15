@@ -15,7 +15,6 @@ class Watches extends Component {
     const Data = data.filter(res => res.type === "watches");
 
     const title = "Watches for all occations";
-    console.log(Data);
 
     return (
       <div className="Watches">
